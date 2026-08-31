@@ -2,17 +2,19 @@
 
 int main(){
     
-    int qntman, qnttar, total;
+    int horas, minutos, soma, horas_convertidas;
     
-    printf("Quantos produtos foram recebidos durante a manhã: ");
-    scanf("%d", &qntman);
-    printf("Quantos produtos foram recebidos durante a tarde: ");
-    scanf("%d", &qnttar);
+    printf("Qual o horário no momento (em h): ");
+    scanf("%d", &horas);
+    printf("E a minutagem: ");
+    scanf("%d", &minutos);
     
-    total= qntman+qnttar;
+    horas_convertidas= horas*60;
+    soma = horas_convertidas + minutos;
     
-    printf("A quantidade total de produtos recebidos foi: %d", total);
+    printf("Já se passaram %d minutos desde 00:00", soma);
     
     return 0;
     
 }
+
