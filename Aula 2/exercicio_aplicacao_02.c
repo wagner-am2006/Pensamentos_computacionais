@@ -8,8 +8,7 @@ int main(){
     scanf("%d %d", &horas, &minutos);
 
     
-    horas_convertidas= horas*60;
-    soma = horas_convertidas + minutos;
+    soma = (horas_convertidas = horas*60) + minutos;
     
     printf("Já se passaram %d minutos desde 00:00", soma);
     
