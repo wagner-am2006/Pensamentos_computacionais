@@ -4,10 +4,9 @@ int main(){
     
     int horas, minutos, soma, horas_convertidas;
     
-    printf("Qual o horário no momento (em h): ");
-    scanf("%d", &horas);
-    printf("E a minutagem: ");
-    scanf("%d", &minutos);
+    printf("Qual o horário no momento (hora minutos): ");
+    scanf("%d %d", &horas, &minutos);
+
     
     horas_convertidas= horas*60;
     soma = horas_convertidas + minutos;
@@ -17,4 +16,5 @@ int main(){
     return 0;
     
 }
+
 
