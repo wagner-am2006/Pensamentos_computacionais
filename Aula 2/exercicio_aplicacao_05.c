@@ -12,7 +12,7 @@ int main(){
     scanf("%f", &altura);
     
 
-    imc = peso / (altura * altura);
+    imc = peso / pow(altura,2);
     
     printf("O seu IMC é %.2f kg/m²", imc);
     
