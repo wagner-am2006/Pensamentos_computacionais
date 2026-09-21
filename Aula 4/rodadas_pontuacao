@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int rodada = 1;     
+    int pontos;          
+    int total = 0;       
+
+    while (rodada <= 3) {
+        printf("Rodada %d: ", rodada);
+        scanf("%d", &pontos);
+        
+        total += pontos; 
+        rodada++;        
+    }
+
+    printf("Pontuacao total: %d\n", total);
+
+    return 0;
+}
