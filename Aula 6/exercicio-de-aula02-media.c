@@ -23,7 +23,7 @@ int main()
         }    
    
    }
-   printf("Média dos valores: %.1f \n", media);
+   printf("\nMédia dos valores: %.1f \n", media);
    printf("Valores acima da média: %d \n", acmedia);
    
     return 0;
